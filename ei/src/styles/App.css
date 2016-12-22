@@ -1,0 +1,45 @@
+/*MAIN*/
+
+.App {
+  height: 100vh;
+  text-align: center;
+  /*these are the default styles of your app if no feeling is passed in as state*/
+  background: linear-gradient(blue, purple);
+}
+
+.happy {
+  height: 100vh;
+  text-align: center;
+  background: linear-gradient(#E80C7A, #FF540D);
+}
+
+.App-main-face {
+  padding: 35vh;
+  font-size: 7em;
+  animation: App-logo-spin infinite 3s linear;
+  transform-origin: center;
+}
+
+.App-intro {
+  width: 100vw;
+  margin: auto;
+  font-size: large;
+  position: absolute;
+  bottom: 10vh;
+  align-items: center;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/*CONTROLS*/
+
+.control-container {
+  position: fixed;
+  width: 90px;
+  bottom: 20px;
+  right: 20px;
+  border: 1px solid black;
+}
